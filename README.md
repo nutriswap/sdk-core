@@ -1,7 +1,21 @@
-# @uniswap/sdk-core - Now at `Uniswap/sdks`
+@nutriswap/sdk-core
 
-All versions after 4.2.0 of this SDK can be found in the [SDK monorepo](https://github.com/Uniswap/sdks/tree/main/sdks/sdk-core)! Please file all future issues, PR’s, and discussions there.
+⚒️ Nutriswap Core SDK — the foundation library for building applications on top of Nutriswap.
 
-### Old Issues and PR’s
+This package provides shared logic and data structures for the Nutriswap V2 and V3 SDKs, including:
 
-If you have an issue or open PR that is still active on this SDK in this repository, please recreate it in the new repository. Some existing issues and PR’s may be automatically migrated by the Uniswap Labs team.
+Currency and Token representations
+
+CurrencyAmount and Fraction math
+
+Trade types (exact in/out)
+
+Utilities for working with EVM-compatible chains
+
+Nutriswap Core SDK is a fork of Uniswap’s Core SDK, adapted for the Nutriswap ecosystem with our own contract addresses and chain configurations.
+
+Features
+
+Strongly typed classes for tokens, amounts, and trades
+
+Built-in support for Nutriswap-supported chains
